@@ -1,0 +1,25 @@
+#exemplo de get
+ http://localhost:3000/comments
+
+###
+ http://localhost:3000/comments/1
+
+###
+
+POST http://localhost:3000/comments HTTP/1.1
+content-type: application/json
+
+{
+    "id": 2, "title": "teste post", "author": "typicode2"
+}
+
+###
+PUT  http://localhost:3000/comments/2 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 2, "title": "teste atualizado", "author": "typicode2"
+}
+
+###
+DELETE   http://localhost:3000/comments/2

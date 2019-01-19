@@ -4,6 +4,11 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "teste-server",
+      "author": "typicode"
     }
   ],
   "comments": [
@@ -14,8 +19,8 @@
     },
     {
       "id": 2,
-      "title": "teste post",
-      "author": "typicode2"
+      "body": "teste post",
+      "postId": 2
     }
   ],
   "profile": {

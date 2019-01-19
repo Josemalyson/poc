@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TarefasService } from './tarefas.service';
+import { Comments } from './Comments';
 
 @Component({
   selector: 'app-tarefas',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarefasComponent implements OnInit {
 
-  constructor() { }
+  comments: Comments[];
+
+  constructor(private tarefaService: TarefasService) { }
 
   ngOnInit() {
+    this.tarefaService.listar().subscribe(data => this.comments = data);
   }
 
 }

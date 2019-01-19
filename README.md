@@ -1,5 +1,8 @@
 # Poc
 
+https://www.npmjs.com/package/json-server
+https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
 ## Development server

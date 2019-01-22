@@ -3,9 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { TarefasRoutingModule } from './tarefas-routing.module';
 import { TarefasComponent } from './tarefas.component';
+import { UsuarioComponent } from '../usuario/usuario.component';
+
+
 
 @NgModule({
-  declarations: [TarefasComponent],
+  declarations: [TarefasComponent, UsuarioComponent],
   imports: [
     CommonModule,
     TarefasRoutingModule

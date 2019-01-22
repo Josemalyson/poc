@@ -1,5 +1,7 @@
 <h1>
   USUARIOS
 </h1>
-<h2>{{usuario.nome}}</h2>
-<p><strong>Ele(a) tem {{usuario.idade}} anos</strong></p>
+<div *ngIf="usuario">
+  <h2>{{usuario?.nome}}</h2>
+  <p><strong>Ele(a) tem {{usuario?.idade}} anos</strong></p>
+</div>
